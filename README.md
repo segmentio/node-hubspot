@@ -50,6 +50,10 @@ npm install hubspot
     client.lists.getRecentContacts(id, opts, cb)
     client.lists.addContacts(id, contactBody, cb)
 
+### Pipelines
+
+    client.pipelines.get(opts, cb)
+
 ### Files
 
     client.files.get(cb)
